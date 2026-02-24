@@ -1,0 +1,43 @@
+site_name: Capacitação Técnica – Segurança em Aplicações Web
+site_description: Programa oficial de capacitação pós Web Pentest – Projeto ZBX-SLA
+site_author: Equipe de Segurança
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - scheme: default
+      primary: blue
+      accent: deep orange
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.action.edit
+
+nav:
+  - Início: index.md
+  - Contexto:
+      - Objetivo: 01-contexto/objetivo.md
+      - Escopo: 01-contexto/escopo.md
+  - Vulnerabilidades:
+      - Visão Geral: 02-vulnerabilidades/visao-geral.md
+      - Broken Access Control: 02-vulnerabilidades/broken-access-control.md
+      - Tratamento de Erros: 02-vulnerabilidades/tratamento-erros.md
+      - Exposição de Informações: 02-vulnerabilidades/exposicao-informacoes.md
+      - Rate Limiting: 02-vulnerabilidades/rate-limit.md
+  - Causas Raiz:
+      - Falhas de Processo: 03-causas-raiz/falhas-processo.md
+  - Boas Práticas:
+      - Controle de Acesso: 04-boas-praticas/controle-acesso.md
+      - Validação: 04-boas-praticas/validacao.md
+      - Autenticação: 04-boas-praticas/autenticacao.md
+  - Checklists:
+      - Desenvolvedores: 05-checklists/checklist-desenvolvedor.md
+      - DevOps: 05-checklists/checklist-devops.md
+  - Governança:
+      - Responsabilidades: 06-governanca/responsabilidades.md
+      - Fluxo de Segurança: 06-governanca/fluxo-seguranca.md
+  - Referências:
+      - Referências Técnicas: 07-referencias/referencias.md
